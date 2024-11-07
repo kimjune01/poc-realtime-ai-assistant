@@ -19,6 +19,7 @@
 - [Install uv](https://docs.astral.sh/uv/), the hyper modern Python package manager.
 - Setup environment `cp .env.sample .env` add your `OPENAI_API_KEY` and a `FIRECRAWL_API_KEY` for scraping.
 - Update `personalization.json` to fit your setup
+- Install portaudio `brew install portaudio`
 - Install dependencies `uv sync`
 - Run the realtime assistant `uv run main` or `uv run main --prompts "Hello, how are you?|What time is it?|Open Hacker News"`
 
